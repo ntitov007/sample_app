@@ -44,11 +44,11 @@ group :development, :test do
   gem 'sqlite3'
 
   gem 'rspec-rails'
+  gem 'capybara'
 end
 
 group :test do
   gem 'selenium-webdriver'
-  gem 'capybara'
 end
 
 group :production do
