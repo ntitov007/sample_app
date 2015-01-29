@@ -44,11 +44,14 @@ group :development, :test do
 
 
   gem 'rspec-rails'
-  gem 'capybara'
+  gem 'guard-rspec'
+  gem 'spring-commands-rspec'
 end
 
 group :test do
   gem 'selenium-webdriver'
+  gem 'capybara'
+  gem 'libnotify'
 end
 
 group :production do
